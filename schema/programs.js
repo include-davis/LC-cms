@@ -4,9 +4,9 @@ used for all cards that have the same strucuture of photo, name of program, and 
 
 */
 const programs = new ContentType({
-  name: 'events',
-  singularDisplayName: 'Event',
-  pluralDisplayName: 'Events',
+  name: 'programs',
+  singularDisplayName: 'Program',
+  pluralDisplayName: 'Programs',
 });
 
 programs
@@ -16,7 +16,6 @@ programs
     type: FieldType.MEDIA_LIST,
     required: true,
   })
-
   .createField({
     name: 'name',
     displayName: 'Name',

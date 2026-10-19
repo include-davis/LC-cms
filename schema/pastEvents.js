@@ -7,7 +7,7 @@ const pastEvents = new ContentType({
 });
 
 pastEvents
-  
+
   .createField({
     name: 'date',
     displayName: 'Date',

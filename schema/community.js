@@ -13,12 +13,11 @@ community
     type: FieldType.MEDIA_LIST,
     required: true,
   })
-
   .createField({
     name: 'date',
     displayName: 'Date',
     type: FieldType.SHORT_TEXT,
     required: true,
-  })
-  
+  });
+
 module.exports = community;
